@@ -6,7 +6,11 @@ public class zadanie_1 {
         double B = 2.22;
         char C = 'C';
         String D = "D";
-        System.out
+        System.out.println(A);
+        System.out.println(B);
+        System.out.println(C);
+        System.out.println(D);
+
     }
 
 }
