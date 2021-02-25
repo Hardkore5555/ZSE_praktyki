@@ -8,8 +8,8 @@ public class lekcja_podstawy {
         int B = -32;
         int C =  77;
 
-
-
+int sum = A + B + C;
+System.out.println("Dodawanie wynik: "+ sum);
 
 
     }
