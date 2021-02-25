@@ -30,11 +30,11 @@ char CharA = 'F';
 char CharB = 'T';
 char CharC = '$';
 System.out.println("Moja ulubiona literka to: "+ CharA);
-System.out.println("Moj ulubibony znak to: "+ CharC)
+System.out.println("Moj ulubibony znak to: "+ CharC);
 
 int sumChar = CharA + CharB + CharC;
 System.out.println("Suma znaków to: "+ sumChar);
- 
+
 
 
 
