@@ -7,9 +7,12 @@ public class lekcja_podstawy {
         int A = 1;
         int B = -32;
         int C =  77;
-
+// dodawanie zmiennych
 int sum = A + B + C;
 System.out.println("Dodawanie wynik: "+ sum);
+
+
+
 
 
     }
