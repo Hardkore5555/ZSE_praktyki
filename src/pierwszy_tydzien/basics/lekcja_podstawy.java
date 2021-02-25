@@ -27,10 +27,10 @@ sumDouble = DoubleA + DoubleB;
 System.out.println(sumDouble);
 // znaki ( characters )
 char CharA = 'F';
-char CharA = 'T';
-char CharA = '$';
-
-
+char CharB = 'T';
+char CharC = '$';
+System.out.println("Moja ulubiona literka to: "+ CharA);
+System.out.println("Moj ulubibony znak to: "+ CharC)
 
     }
 
