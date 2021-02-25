@@ -17,7 +17,8 @@ System.out.println("Odejmowanie wynik: "+ sum);
 sum = A * B * C;
 System.out.println("Mnożenie wynik: "+ sum);
 
-
+sum = B / 2;
+System.out.println("Dzielenie zmiennej B przez 2: "+ sum);
     }
 
 }
