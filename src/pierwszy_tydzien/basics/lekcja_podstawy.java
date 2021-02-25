@@ -11,6 +11,8 @@ public class lekcja_podstawy {
 int sum = A + B + C;
 System.out.println("Dodawanie wynik: "+ sum);
 
+sum = A - B - C;
+System.out.println("Odejmowanie wynik: "+ sum);
 
 
 
