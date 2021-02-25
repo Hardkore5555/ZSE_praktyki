@@ -25,7 +25,7 @@ double DoubleB = 1.44;
 double sumDouble;
 sumDouble = DoubleA + DoubleB;
 System.out.println(sumDouble);
-
+// znaki ( characters )
 char CharA = 'F';
 char CharA = 'T';
 char CharA = '$';
