@@ -24,8 +24,8 @@ double DoubleA = 1.65;
 double DoubleB = 1.44;
 
 double sumDouble;
-
-
+sumDouble = DoubleA + DoubleB;
+System.out.println(sumDouble);
 
     }
 
