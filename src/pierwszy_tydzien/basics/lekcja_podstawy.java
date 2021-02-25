@@ -26,6 +26,12 @@ double sumDouble;
 sumDouble = DoubleA + DoubleB;
 System.out.println(sumDouble);
 
+char CharA = 'F';
+char CharA = 'T';
+char CharA = '$';
+
+
+
     }
 
 
