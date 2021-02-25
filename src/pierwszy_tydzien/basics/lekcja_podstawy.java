@@ -14,7 +14,8 @@ System.out.println("Dodawanie wynik: "+ sum);
 sum = A - B - C;
 System.out.println("Odejmowanie wynik: "+ sum);
 
-
+sum = A * B * C;
+System.out.println("Mnożenie wynik: "+ sum);
 
 
     }
