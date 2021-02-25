@@ -10,7 +10,7 @@ public class lekcja_podstawy {
 // dodawanie zmiennych
 int sum = A + B + C;
 System.out.println("Dodawanie wynik: "+ sum);
-
+// odejmowanie zmiennych
 sum = A - B - C;
 System.out.println("Odejmowanie wynik: "+ sum);
 
