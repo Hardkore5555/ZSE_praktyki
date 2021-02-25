@@ -13,7 +13,7 @@ System.out.println("Dodawanie wynik: "+ sum);
 // odejmowanie zmiennych
 sum = A - B - C;
 System.out.println("Odejmowanie wynik: "+ sum);
-
+// mnożenie zmiennych
 sum = A * B * C;
 System.out.println("Mnożenie wynik: "+ sum);
 
