@@ -19,10 +19,9 @@ System.out.println("Mnożenie wynik: "+ sum);
 //dzielenie zmiennych
 sum = B / 2;
 System.out.println("Dzielenie zmiennej B przez 2: "+ sum);
-
+// float/double
 double DoubleA = 1.65;
 double DoubleB = 1.44;
-
 double sumDouble;
 sumDouble = DoubleA + DoubleB;
 System.out.println(sumDouble);
