@@ -27,9 +27,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.zadanie_4">
-    <configuration name="lekcja_podstawy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.basics.lekcja_podstawy" />
+  <component name="RunManager" selected="Application.if_else_scanner_switch">
+    <configuration name="if_else_scanner_switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.basics.if_else_scanner_switch" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
@@ -42,11 +42,11 @@
       </method>
     </configuration>
     <configuration name="zadanie_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe.zadanie_1" />
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe1.zadanie_1" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe.*" />
+          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,11 +55,11 @@
       </method>
     </configuration>
     <configuration name="zadanie_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe.zadanie_2" />
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe1.zadanie_2" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe.*" />
+          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +68,11 @@
       </method>
     </configuration>
     <configuration name="zadanie_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe.zadanie_3" />
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe1.zadanie_3" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe.*" />
+          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="zadanie_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe.zadanie_4" />
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.zadaniadomowe1.zadanie_4" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe.*" />
+          <option name="PATTERN" value="pierwszy_tydzien.zadaniadomowe1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.if_else_scanner_switch" />
         <item itemvalue="Application.zadanie_4" />
         <item itemvalue="Application.zadanie_3" />
         <item itemvalue="Application.zadanie_2" />
         <item itemvalue="Application.zadanie_1" />
-        <item itemvalue="Application.lekcja_podstawy" />
       </list>
     </recent_temporary>
   </component>

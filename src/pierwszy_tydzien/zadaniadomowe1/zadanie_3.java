@@ -1,4 +1,4 @@
-package pierwszy_tydzien.zadaniadomowe;
+package pierwszy_tydzien.zadaniadomowe1;
 
 public class zadanie_3 {
     public static void main(String[] args) {
