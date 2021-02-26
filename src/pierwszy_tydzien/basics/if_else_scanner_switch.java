@@ -22,7 +22,5 @@ else{
     System.out.println("Jestes niepełnoletni");
     }
 
-
-
     }
 }
