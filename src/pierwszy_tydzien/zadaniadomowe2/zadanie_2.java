@@ -19,11 +19,22 @@ public class zadanie_2 {
         if (dwa == trzy) {
             System.out.println("Druga liczba jest równa trzeciej.");
         }
-        if (raz == trzy){
+        if (raz == trzy) {
             System.out.println("Pierwsza liczba jest równa trzeciej.");
         }
-        if (){
-
+        if (raz == dwa && dwa == trzy && raz == trzy){
+        }
+        else {
+            if (raz > dwa) {
+                if (raz > trzy)
+                    System.out.println("Pierwsza liczba jest największa.");
+            } else {
+                if (dwa > trzy) {
+                    System.out.println("Druga liczba jest największa.");
+                } else {
+                    System.out.println("Trzecia liczba jest największa.");
+                }
+            }
         }
     }
 }
