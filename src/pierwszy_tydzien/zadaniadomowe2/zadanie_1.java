@@ -17,6 +17,7 @@ public class zadanie_1 {
                 if (liczba < 0) {
                     System.out.println("Podana liczba jest mniejsza od 0.");
                 }
+                
             }
         }
     }
