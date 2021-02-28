@@ -1,7 +1,6 @@
 package pierwszy_tydzien.zadaniadomowe2;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class zadanie_5 {
