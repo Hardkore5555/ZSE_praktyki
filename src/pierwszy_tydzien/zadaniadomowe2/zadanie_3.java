@@ -1,6 +1,5 @@
 package pierwszy_tydzien.zadaniadomowe2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class zadanie_3 {
@@ -13,17 +12,11 @@ public class zadanie_3 {
         Scanner haslo = new Scanner(System.in);
         System.out.println("Podaj swoje haslo: ");
         String has = haslo.toString();
-        if (log == "admin") {
-
+        if (log == "admin" && has == "haslo"){
+            System.out.println("Pomyślnie zalogowano.");
         }
-        else{
-            System.out.println("Niepoprawny login.");
-        }
-        if (has == "haslo") {
-
-        }
-        else{
-            System.out.println("Niepoprawne hasło.");
+        else {
+            System.out.println("Niepoprawny login lub hasło.");
         }
     }
 }
