@@ -8,11 +8,11 @@ public class zadanie_3 {
         // poprawne hasło: haslo
         Scanner login = new Scanner(System.in);
         System.out.println("Podaj swój login: ");
-        String log = login.toString();
+        String log = login.next();
         Scanner haslo = new Scanner(System.in);
         System.out.println("Podaj swoje haslo: ");
-        String has = haslo.toString();
-        if (log == "admin" && has == "haslo"){
+        String has = haslo.next();
+        if (log.equals("admin") && has.equals("haslo")){
             System.out.println("Pomyślnie zalogowano.");
         }
         else {
