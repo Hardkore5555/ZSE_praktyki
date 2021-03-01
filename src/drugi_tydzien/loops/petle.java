@@ -28,6 +28,16 @@ public class petle {
             numberC++;
         } while (numberC < 12);
 
+        System.out.println("piata petla-Tabliczba mnożenia");
+for (int l=1;l<11;l++){
+    System.out.println(i+ " przejscie petli");
+    for (int j=1;j<11;j++){
+        System.out.println(" [l:" +l+ "]" + "[j:" +l+ "]\t " +l+ " * " +l+ " = " +l*j+ "\t");
+    }
+}
+
+
+
 
     }
 }
