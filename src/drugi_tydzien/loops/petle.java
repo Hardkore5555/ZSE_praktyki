@@ -35,8 +35,12 @@ for (int l=1;l<11;l++){
         System.out.println(" [l:" +l+ "]" + "[j:" +l+ "]\t " +l+ " * " +l+ " = " +l*j+ "\t");
     }
 }
-
-
+        System.out.println("szosta petla");
+for (int z=0;z<=20;z++){
+    for (int y=0;y<=5;y++){
+        System.out.println(" x+y = "+(x+y));
+    }
+}
 
 
     }
