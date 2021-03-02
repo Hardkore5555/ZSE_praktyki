@@ -19,5 +19,16 @@ public class tabele {
         array[1]=10;
         array[2]=5;
         array[3]=0;
+
+        int array3[]={1,2,3,4,5,6,7,8,9,10};
+        System.out.print("\n\narray3 = {");
+        for (int i = 0; i < array3.length; i++){
+         if (i == array3.length - 1){
+             System.out.println(array3[i]+ "};");
+         }
+         else {
+             System.out.println(array3[i]+", ");
+         }
+        }
     }
 }
