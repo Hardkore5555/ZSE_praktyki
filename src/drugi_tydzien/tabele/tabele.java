@@ -3,6 +3,7 @@ package drugi_tydzien.tabele;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Random;
 
 public class tabele {
     public static void main(String[] args) {
@@ -58,7 +59,22 @@ public class tabele {
         Arrays.sort(stringArray,Collections.reverseOrder());
         System.out.println("Sortowanie w porządku malejącym: " + Arrays.toString(stringArray));
 
-        
+        Random rand = new Random();
+
+        int rand_int1 = rand.nextInt(10); //0 - 9
+        System.out.println("Wartość rand_int1: "+ rand_int1);
+
+        int rand_int2 = rand.nextInt(10)+ 1;//1 - 10
+        System.out.println("Wartość rand_int2: "+ rand_int2);
+
+        int rand_int3 = rand.nextInt(10000); //0 - 9999
+        System.out.println("Wartość rand_int3: "+ rand_int3);
+
+        double rand_double1 = rand.nextDouble(); //0.0 - 1.0
+        System.out.println("Wartośc rand_double1: "+ rand_double1);
+
+        boolean rand_boolean1 = rand.nextBoolean(); // true - false
+        System.out.println("Wartość rand_bolean1: "+ rand_boolean1);
     }
 }
 
