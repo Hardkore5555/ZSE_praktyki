@@ -13,14 +13,24 @@ public class zadanie_5 {
         int j = 30;
         do {
             System.out.println("j to =" + j);
-            j-=3;
+            j -= 3;
         } while (j >= 0);
         //*
-        int x;
-        int y;
-        int z;
 
-
-
+        for (int x = 1; x < 11; x++) {
+            int z=11;
+            z=z-x;
+            System.out.println();
+            for (int y = 1; y < 11; y++) {
+                int lgw = y*2-1;
+                char p = ' ';
+                if (y==x||y==z){
+                    System.out.print(p);
+                }
+                else {
+                    System.out.print("*");
+                }
+            }
+        }
     }
 }

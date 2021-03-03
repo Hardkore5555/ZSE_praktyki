@@ -40,7 +40,20 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.petle">
+  <component name="RunManager" selected="Application.zadanie_5">
+    <configuration name="lekcja_podstawy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pierwszy_tydzien.basics.lekcja_podstawy" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pierwszy_tydzien.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="petle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.loops.petle" />
       <module name="ZSE_praktyki" />
@@ -54,21 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zadanie_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe1.zadanie_3" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe1.test" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.petle" />
         <item itemvalue="Application.zadanie_5" />
+        <item itemvalue="Application.lekcja_podstawy" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.petle" />
         <item itemvalue="Application.zadanie_4" />
-        <item itemvalue="Application.zadanie_3" />
-        <item itemvalue="Application.tablice_2" />
       </list>
     </recent_temporary>
   </component>
