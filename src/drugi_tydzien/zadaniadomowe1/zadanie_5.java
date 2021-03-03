@@ -15,5 +15,12 @@ public class zadanie_5 {
             System.out.println("j to =" + j);
             j-=3;
         } while (j >= 0);
+        //*
+        int x;
+        int y;
+        int z;
+
+
+
     }
 }
