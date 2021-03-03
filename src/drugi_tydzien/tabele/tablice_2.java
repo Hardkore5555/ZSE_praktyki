@@ -1,5 +1,9 @@
 package drugi_tydzien.tabele;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class tablice_2 {
     public static void main(String[] args) {
         //tablica dwuwymiarowa
@@ -35,6 +39,45 @@ public class tablice_2 {
             }
             System.out.println();
         }
+
+        System.out.println("Wpisywanie tablicy: ");
+        String[] owoce = new String[3];
+        owoce[0]="Mango";
+        owoce[1]="Banan";
+        owoce[2]="Gruszka";
+        System.out.println(Arrays.toString(owoce));
+        System.out.println(owoce[0]+", "+owoce[1]+", "+owoce[2]);
+
+        System.out.println("Wypisywanie listy: ");
+        ArrayList<String> lista_owocow = new ArrayList<>();
+        lista_owocow.add("Mango");
+        lista_owocow.add("Banan");
+        lista_owocow.add("Gruszka");
+        System.out.println(lista_owocow);
+        //Stworzenie listy
+        ArrayList<String> lista_owocow2 = new ArrayList<>();
+        lista_owocow2.add("Truskawka");
+        lista_owocow2.add("Banan");
+        lista_owocow2.add("Gruszka");
+        lista_owocow2.add("Jabłko");
+        System.out.println(lista_owocow2);
+
+        //Dodanie nowego obiektu do listy
+        lista_owocow2.add(1,"Maracuja");
+        System.out.println(lista_owocow2);
+        //Usuwanie obiektu z listy
+        lista_owocow2.remove("Banan");
+        lista_owocow2.remove(2);
+        System.out.println(lista_owocow2);
+        //Nadpisywanie obiektów w liście
+        lista_owocow2.set(0,"Arbuz");
+        System.out.println(lista_owocow2);
+        //Sortowanie listy
+        Collections.sort(lista_owocow2);
+        System.out.println(lista_owocow2);
+        //Czyszczenie listy
+        lista_owocow2.clear();
+        System.out.println(lista_owocow2);
 
 
     }
