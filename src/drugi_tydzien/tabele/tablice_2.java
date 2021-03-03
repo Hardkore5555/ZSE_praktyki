@@ -16,8 +16,8 @@ public class tablice_2 {
         for (int i=0;i<10;i++){
             for (int j=0;j<10;j++){
                 array2[i][j]= value;
-                value++;
-                System.out.println("\t");
+                value=value+2;
+                System.out.println(array2[i][j]+ "\t");
             }
             System.out.println();
         }
