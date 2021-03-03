@@ -40,13 +40,13 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zadanie_3">
-    <configuration name="petle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.loops.petle" />
+  <component name="RunManager" selected="Application.tablice_2">
+    <configuration name="tabele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tabele" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="drugi_tydzien.loops.*" />
+          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tabele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tabele" />
+    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.zadanie_3" />
         <item itemvalue="Application.tabele" />
         <item itemvalue="Application.zadanie_2" />
         <item itemvalue="Application.zadanie_1" />
-        <item itemvalue="Application.petle" />
       </list>
     </recent_temporary>
   </component>
