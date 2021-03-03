@@ -21,5 +21,21 @@ public class tablice_2 {
             }
             System.out.println();
         }
+
+        int [][][] array3 = new int[3][3][3];
+        int value2 = 0;
+        for (int x = 0;x<3;x++){
+            for (int y = 0;y<3;y++){
+                for (int z = 0;z<3;z++){
+                    array3[x][y][z] = value2;
+                    value2+= 3;
+                    System.out.println("["+ x + "][" + y + "][" + z + "] = " + array3[x][y][z] + "\t");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+
+
     }
 }
