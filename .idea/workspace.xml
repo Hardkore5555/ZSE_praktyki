@@ -40,7 +40,7 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tablice_2">
+  <component name="RunManager" selected="Application.zadanie_3">
     <configuration name="tabele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tabele" />
       <module name="ZSE_praktyki" />
@@ -108,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.zadanie_3" />
+        <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.tabele" />
         <item itemvalue="Application.zadanie_2" />
         <item itemvalue="Application.zadanie_1" />
