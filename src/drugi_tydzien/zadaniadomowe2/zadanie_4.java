@@ -6,8 +6,10 @@ public class zadanie_4 {
     public static void main(String[] args) {
         String[] jedzenie = {"Placki","Frytki","Bigos","Makaron","Jajecznica","Tosty","Zupa"};
         Random x = new Random();
-        int potrawy = x.nextInt(jedzenie.length);
+        int śniadanie = x.nextInt(jedzenie.length);
+        int obiad = x.nextInt(jedzenie.length);
+        int kolacja = x.nextInt(jedzenie.length);
 
-        System.out.println("Na śniadanie zjem: "+potrawy+", na obiad: "+potrawy+", a na kolację: "+potrawy);
+        System.out.println("Na śniadanie zjem: "+jedzenie[śniadanie]+", na obiad: "+jedzenie[obiad]+", a na kolację: "+jedzenie[kolacja]);
     }
 }

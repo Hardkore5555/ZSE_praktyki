@@ -40,7 +40,7 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zadanie_5">
+  <component name="RunManager" selected="Application.zadanie_4">
     <configuration name="MetodyLekcja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.metodyiobiekty.MetodyLekcja" />
       <module name="ZSE_praktyki" />
@@ -108,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.zadanie_5" />
         <item itemvalue="Application.zadanie_4" />
+        <item itemvalue="Application.zadanie_5" />
         <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.pralko_suszarka" />
         <item itemvalue="Application.MetodyLekcja" />
