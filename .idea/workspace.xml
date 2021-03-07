@@ -40,26 +40,13 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zadanie_lista">
+  <component name="RunManager" selected="Application.zadanie_piec$Piece">
     <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="drugi_tydzien.tabele.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zadanie_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe3.zadanie_1" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="drugi_tydzien.zadaniadomowe3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zadanie_piec$Piece" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.piec.zadanie_piec$Piece" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="drugi_tydzien.piec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.zadanie_piec$Piece" />
         <item itemvalue="Application.zadanie_lista" />
         <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.zadanie_3" />
         <item itemvalue="Application.zadanie_2" />
-        <item itemvalue="Application.zadanie_1" />
       </list>
     </recent_temporary>
   </component>
