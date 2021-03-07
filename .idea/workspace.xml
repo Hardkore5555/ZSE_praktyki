@@ -40,7 +40,7 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zadanie_4">
+  <component name="RunManager" selected="Application.zadanie_5">
     <configuration name="MetodyLekcja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.metodyiobiekty.MetodyLekcja" />
       <module name="ZSE_praktyki" />
@@ -80,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zadanie_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe2.zadanie_3" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="drugi_tydzien.zadaniadomowe2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="zadanie_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe2.zadanie_4" />
       <module name="ZSE_praktyki" />
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zadanie_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe2.zadanie_5" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="drugi_tydzien.zadaniadomowe2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.zadanie_5" />
         <item itemvalue="Application.zadanie_4" />
         <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.pralko_suszarka" />
         <item itemvalue="Application.MetodyLekcja" />
-        <item itemvalue="Application.zadanie_3" />
       </list>
     </recent_temporary>
   </component>
