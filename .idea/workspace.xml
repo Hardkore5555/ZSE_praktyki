@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zadanie_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe2.zadanie_2" />
+    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="drugi_tydzien.zadaniadomowe2.*" />
+          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.zadanie_4" />
+        <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.pralko_suszarka" />
         <item itemvalue="Application.MetodyLekcja" />
         <item itemvalue="Application.zadanie_3" />
-        <item itemvalue="Application.zadanie_2" />
       </list>
     </recent_temporary>
   </component>
