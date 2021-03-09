@@ -41,13 +41,13 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zadanie_piec$Piece">
-    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
+  <component name="RunManager" selected="Application.Wyjątki">
+    <configuration name="Wyjątki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.Wyjątki" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
+          <option name="PATTERN" value="trzeci_tydzien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zadanie_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.zadaniadomowe3.zadanie_2" />
+    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="drugi_tydzien.zadaniadomowe3.*" />
+          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wyjątki" />
         <item itemvalue="Application.zadanie_piec$Piece" />
         <item itemvalue="Application.zadanie_lista" />
         <item itemvalue="Application.tablice_2" />
         <item itemvalue="Application.zadanie_3" />
-        <item itemvalue="Application.zadanie_2" />
       </list>
     </recent_temporary>
   </component>
