@@ -1,6 +1,7 @@
 package trzeci_tydzien;
 
 import java.sql.SQLOutput;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Wyjątki {
@@ -10,8 +11,6 @@ public class Wyjątki {
             throw new Exception();
         }
     }
-
-
 
     public static void main(String[] args) {
 
@@ -24,12 +23,19 @@ public class Wyjątki {
             int B = scanner.nextInt();
 
             System.out.println("liczba A: " + A + " Liczba B: " + B);
-            
-            isNotNegative(A,B);
+
+            isNotNegative(B);
             System.out.println(A/B);
-        } catch (Exception exception) {
-            System.out.println("Wyskoczył Błąd, Spróbuj ponownie");
+        } catch (ArithmeticException przez0sieniedzieli) {
+            System.out.println("Nie dzielimy przez 0");
+        } catch (InputMismatchException zlyTypDanychWyjatek){
+            System.out.println("Podano zły typ danych :(");
+        }catch (Exception exception){
+            System.out.println("To nie była liczba dodatnia");
         }
         System.out.println("Koniec");
+    }
+
+    private static void isNotNegative(int b) {
     }
 }
