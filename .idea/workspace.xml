@@ -41,7 +41,7 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForEach">
+  <component name="RunManager" selected="Application.swing">
     <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.ForEach" />
       <module name="ZSE_praktyki" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tablice_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="drugi_tydzien.tabele.tablice_2" />
+    <configuration name="swing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.gui.swing" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="drugi_tydzien.tabele.*" />
+          <option name="PATTERN" value="trzeci_tydzien.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.swing" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.Wyjątki" />
         <item itemvalue="Application.zadanie_piec$Piece" />
         <item itemvalue="Application.zadanie_lista" />
-        <item itemvalue="Application.tablice_2" />
       </list>
     </recent_temporary>
   </component>
