@@ -19,23 +19,22 @@ public class myszka extends JFrame implements MouseListener {
        przycisk = new JButton();
        przycisk.setBounds(5,5,50,50);
        przycisk.addMouseListener(new MouseAdapter() {
-           public void mouseEntered(MouseEvent evt){
+           public void mouseClicked(MouseEvent evt){
                tekst2.setBackground(Color.orange);
            }
-           public void mouseEntered(MouseEvent evt){
+           public void mousePressed(MouseEvent evt){
                tekst2.setBackground(Color.red);
            }
 
-       });
-       tekst2.addMouseListener(new MouseAdapter() {
+
            public void mouseEntered(MouseEvent evt) {
-               public void mouseEntered (MouseEvent evt){
+               public void mouseReleased (MouseEvent evt){
                    tekst2.setBackground(Color.black);
                }
-               public void mouseExited (MouseEvent evt){
+               public void mouseEntered (MouseEvent evt){
                    tekst2.setBackground(Color.blue);
                }
-               public void mouseClicked (MouseEvent evt){
+               public void mouseExited (MouseEvent evt){
                    tekst2.setBackground(Color.green);
                }
            }
