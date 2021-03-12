@@ -16,6 +16,9 @@ public class kalkulator extends JFrame {
     private JTextArea poleLiczbaB;
     private JButton przyciskDodaj;
     private JButton przyciskOdejmij;
+    private JButton przyciskmnoz;
+    private JButton przyciskdziel;
+    private JButton przycisksumapotęg;
 
     kalkulator() {
         setTitle("Kalkulator prosty");
@@ -31,6 +34,9 @@ public class kalkulator extends JFrame {
         poleLiczbaB = new JTextArea("");
         przyciskDodaj = new JButton("Suma");
         przyciskOdejmij = new JButton("Różnica");
+        przyciskmnoz = new JButton("Wynik mnożenia");
+        przyciskdziel = new JButton("Wynik dzielenia");
+        przycisksumapotęg = new JButton("Suma potęg");
         add(panelLiczb);
         panelLiczb.add(tekstliczbaA);
         panelLiczb.add(poleLiczbaA);
@@ -38,6 +44,9 @@ public class kalkulator extends JFrame {
         panelLiczb.add(poleLiczbaB);
         panelFunkcji.add(przyciskDodaj);
         panelFunkcji.add(przyciskOdejmij);
+        panelFunkcji.add(przyciskmnoz);
+        panelFunkcji.add(przyciskdziel);
+        panelFunkcji.add(przycisksumapotęg);
         add(panelWyniku);
         panelWyniku.add(wynik);
         panelLiczb.setLayout(new GridLayout(4, 1));
@@ -51,17 +60,43 @@ public class kalkulator extends JFrame {
                 double a = Double.parseDouble(poleLiczbaA.getText());
                 double b = Double.parseDouble(poleLiczbaB.getText());
                 double c= round(a+b,2);
-                wynik.setText("Suma= " +c);
+                wynik.setText("Wynik= " +c);
             }
         });
-
         przyciskOdejmij.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 double a = Double.parseDouble(poleLiczbaA.getText());
                 double b = Double.parseDouble(poleLiczbaB.getText());
                 double c= round(a-b,2);
-                wynik.setText("Suma= " +c);
+                wynik.setText("Wynik= " +c);
+            }
+        });
+        przyciskmnoz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double a = Double.parseDouble(poleLiczbaA.getText());
+                double b = Double.parseDouble(poleLiczbaB.getText());
+                double c= round(a*b,2);
+                wynik.setText("Wynik= " +c);
+            }
+        });
+        przyciskdziel.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double a = Double.parseDouble(poleLiczbaA.getText());
+                double b = Double.parseDouble(poleLiczbaB.getText());
+                double c= round(a/b,2);
+                wynik.setText("Wynik= " +c);
+            }
+        });
+        przycisksumapotęg.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double a = Double.parseDouble(poleLiczbaA.getText());
+                double b = Double.parseDouble(poleLiczbaB.getText());
+                double c= round((a*a)+(b*b),2);
+                wynik.setText("Wynik= " +c);
             }
         });
     }
