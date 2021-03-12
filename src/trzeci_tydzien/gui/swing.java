@@ -22,7 +22,7 @@ public class swing extends JFrame{
         tekstfield = new JTextArea();
         tekstfield.setBounds(10,45,150,60);
         panel.add(tekstfield);
-        
+
 
         setVisible(true);
     }
