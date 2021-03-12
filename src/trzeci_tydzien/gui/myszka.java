@@ -39,7 +39,7 @@ public class myszka extends JFrame implements MouseListener {
                }
            }
        });
-       setDefaultCloseOperation();
+       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        add(tekst);
        add(tekst2);
        add(przycisk);
