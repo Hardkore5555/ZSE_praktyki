@@ -42,13 +42,13 @@
       <recent name="drugi_tydzien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zmienne">
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.ForEach" />
+  <component name="RunManager" selected="Application.Projekt">
+    <configuration name="Projekt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PROjekt.Projekt" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trzeci_tydzien.*" />
+          <option name="PATTERN" value="PROjekt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Projekt" />
         <item itemvalue="Application.zmienne" />
         <item itemvalue="Application.kalkulator" />
         <item itemvalue="Application.klawisze" />
         <item itemvalue="Application.swing" />
-        <item itemvalue="Application.ForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -128,16 +128,5 @@
       <updated>1614080075608</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/czwarty_tydzien/porownywanie/zmienne.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
