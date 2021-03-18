@@ -1,5 +1,5 @@
 package PROjekt;
-// Autorzy: Krystian Lewandowski, Adrian Sobierajski
+// Autorzy: Krystian Lewandowski, Adrian Sobierajski, Patryk Likszo, Dominik Nowakowski.
 import java.util.Scanner;
 
 public class Projekt {
