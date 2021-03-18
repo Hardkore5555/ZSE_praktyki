@@ -56,6 +56,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Projekt_losowe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PROjekt.Projekt_losowe" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PROjekt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.gui.kalkulator" />
       <module name="ZSE_praktyki" />
@@ -71,19 +84,6 @@
     </configuration>
     <configuration name="klawisze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.gui.klawisze" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trzeci_tydzien.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="swing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trzeci_tydzien.gui.swing" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
@@ -111,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Projekt" />
+        <item itemvalue="Application.Projekt_losowe" />
         <item itemvalue="Application.zmienne" />
         <item itemvalue="Application.kalkulator" />
         <item itemvalue="Application.klawisze" />
-        <item itemvalue="Application.swing" />
       </list>
     </recent_temporary>
   </component>
